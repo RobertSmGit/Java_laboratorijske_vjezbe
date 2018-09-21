@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.collections.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.java.vjezbe.javafx.PocetniEkranController">
+   <padding>
+      <Insets bottom="10.0" left="5.0" right="5.0" />
+   </padding>
+   <left>
+      <Pane prefHeight="280.0" prefWidth="490.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="lijevaLista" layoutX="3.0" prefHeight="300.0" prefWidth="485.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </ListView>
+         </children>
+      </Pane>
+   </left>
+   <bottom>
+      <Pane prefHeight="89.0" prefWidth="990.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="343.0" layoutY="13.0" mnemonicParsing="false" onAction="#dodaj" text="Dodaj komponentu &gt;&gt;" />
+            <Button layoutX="432.0" layoutY="62.0" mnemonicParsing="false" onAction="#spremi" text="Spremi konfiguraciju" />
+            <Button layoutX="506.0" layoutY="13.0" mnemonicParsing="false" onAction="#obrisi" text="&lt;&lt; Obriši komponentu" />
+         </children>
+      </Pane>
+   </bottom>
+   <right>
+      <Pane prefHeight="280.0" prefWidth="490.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="desnaLista" layoutX="5.0" prefHeight="300.0" prefWidth="480.0" />
+         </children>
+      </Pane>
+   </right>
+   <center>
+      <Label prefHeight="28.0" prefWidth="357.0" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Matične ploče">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNovuMaticnuPlocu" text="Dodaj novu" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Procesori">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNoviProcesor" text="Dodaj novi" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Radne Memorije">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNovuRadnuMemoriju" text="Dodaj novu" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="TvrdiDiskovi">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#prikaziEkranZaNoviTvrdiDisk" text="Dodaj novi" />
+               </items>
+            </Menu>
+        </menus>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" />
+         </BorderPane.margin>
+      </MenuBar>
+   </top>
+</BorderPane>

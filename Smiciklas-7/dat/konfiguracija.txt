@@ -1,0 +1,4 @@
+ Procesor [tip=i5-4690K, brzina=3.9, suèelje procesora=SOCKET_G3]
+ RadnaMemorija [tip=HyperX Savage DDR3 2400MHz, kapacitet=8]
+ TvrdiDisk [tip=Barracuda, kapacitet=4]
+ TvrdiDisk [tip=SSD 730 Series, kapacitet=0.47]

@@ -1,0 +1,10 @@
+2015-11-10 23:52:01,082 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen je broj 3
+2015-11-10 23:52:07,510 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 3
+2015-11-10 23:52:30,814 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen je broj 4
+2015-11-10 23:52:36,854 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 3
+2015-11-10 23:52:36,880 [main] INFO  hr.java.vjezbe.glavna.Glavna - Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+hr.java.vjezbe.iznimke.NekompatibilnoSuceljeZaProcesorException: Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+	at hr.java.vjezbe.glavna.Glavna.provjera(Glavna.java:337) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.racunalo(Glavna.java:179) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:39) [classes/:na]
+2015-11-10 23:52:38,374 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 4

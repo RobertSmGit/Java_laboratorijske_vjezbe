@@ -1,0 +1,12 @@
+Seagate
+Barracuda
+4
+1499
+Western Digital
+Caviar Green WD20EZRX
+2
+739
+Intel
+SSD 730 Series
+0.47
+2949

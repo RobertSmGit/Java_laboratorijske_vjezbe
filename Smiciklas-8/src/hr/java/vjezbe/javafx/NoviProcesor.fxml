@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="hr.java.vjezbe.javafx.ProcesorController">
+   <children>
+      <GridPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label text="Naziv Proizvođača" />
+            <Label text="Tip procesora" GridPane.rowIndex="1" />
+            <Label prefHeight="36.0" prefWidth="211.0" text="Brzina (GHz)" GridPane.rowIndex="3" />
+            <Label text="Cijena" GridPane.rowIndex="4" />
+            <TextField fx:id="proizvodac" GridPane.columnIndex="1" />
+            <TextField fx:id="tip" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="cijena" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#spremiProcesor" text="Spremi" GridPane.rowIndex="6" />
+            <TextField fx:id="tipSucelja" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="Tip sučelja" GridPane.rowIndex="2" />
+            <TextField fx:id="brzina" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <padding>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+         </padding>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>

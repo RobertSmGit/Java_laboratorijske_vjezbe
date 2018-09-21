@@ -1,0 +1,28 @@
+2015-10-27 23:48:32,938 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen je broj 3
+2015-10-27 23:48:33,023 [main] INFO  hr.java.vjezbe.glavna.Glavna - Pogreška! Unijeli ste neispravan broj memorijskih modula. Matièna ploèa podržava izmeðu 1 i 2 memorijskih modula!
+hr.java.vjezbe.iznimke.NeispravanBrojMemorijskihModulaException: Pogreška! Unijeli ste neispravan broj memorijskih modula. Matièna ploèa podržava izmeðu 1 i 2 memorijskih modula!
+	at hr.java.vjezbe.glavna.Glavna.provjeriBrojModula(Glavna.java:276) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.racunalo(Glavna.java:111) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:32) [classes/:na]
+2015-10-27 23:48:33,786 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen je broj 2
+2015-10-27 23:48:38,307 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 4
+2015-10-27 23:48:38,308 [main] INFO  hr.java.vjezbe.glavna.Glavna - Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+hr.java.vjezbe.iznimke.NekompatibilnoSuceljeZaProcesorException: Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+	at hr.java.vjezbe.glavna.Glavna.provjera(Glavna.java:263) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.racunalo(Glavna.java:147) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:32) [classes/:na]
+2015-10-27 23:48:39,154 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 2
+2015-10-27 23:48:39,155 [main] INFO  hr.java.vjezbe.glavna.Glavna - Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+hr.java.vjezbe.iznimke.NekompatibilnoSuceljeZaProcesorException: Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+	at hr.java.vjezbe.glavna.Glavna.provjera(Glavna.java:263) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.racunalo(Glavna.java:147) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:32) [classes/:na]
+2015-10-27 23:48:39,899 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 3
+2015-10-27 23:48:54,875 [main] INFO  hr.java.vjezbe.glavna.Glavna - Unesen je broj 2
+2015-10-27 23:49:00,139 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 2
+2015-10-27 23:49:00,140 [main] INFO  hr.java.vjezbe.glavna.Glavna - Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+hr.java.vjezbe.iznimke.NekompatibilnoSuceljeZaProcesorException: Pogreška! Tip suèelja procesora mora se podudarati s tipom suèelja za procesor na matiènoj ploèi!
+	at hr.java.vjezbe.glavna.Glavna.provjera(Glavna.java:263) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.racunalo(Glavna.java:147) [classes/:na]
+	at hr.java.vjezbe.glavna.Glavna.main(Glavna.java:35) [classes/:na]
+2015-10-27 23:49:00,995 [main] INFO  hr.java.vjezbe.glavna.Glavna - Odabrano je sucelje: 1

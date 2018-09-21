@@ -1,0 +1,15 @@
+Asrock
+Desktop board P4I65G
+SOCKET_LGA_1151
+4
+589
+Asrock 
+Z97 KILLER
+SOCKET_G3
+4
+1139
+MSI
+Z170 XPOWER Gaming Titanium Edition
+SOCKET LGA 1151
+4
+2509
